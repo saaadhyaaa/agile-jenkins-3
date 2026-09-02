@@ -13,7 +13,7 @@ pipeline {
                    Pipes Subject 1 marks (75), Subject 2 marks (82), 
                    and Subject 3 marks (90) straight into the python inputs.
                 */
-                bat "(echo 75 && echo 82 && echo 90) | python results.py"
+                bat "(echo 75 && echo 82 && echo 90) | python marks.py"
             }
         }
     }
